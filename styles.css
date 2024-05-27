@@ -1,13 +1,18 @@
+/* CSS reset to remove default margins and paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,11 +21,10 @@ body {
     background-color: #f0f0f0;
 }
 
-
 .hero {
     background-color: #ff69b4;
     color: white;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     padding: 2rem 1rem;
 }
