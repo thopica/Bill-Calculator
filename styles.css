@@ -28,7 +28,6 @@ body {
     text-align: center;
     padding: 2rem 1rem;
     box-sizing: border-box; /* Ensure padding is included in width */
-    border: 1px solid red; /* Temporary border for debugging */
 }
 
 .hero h1 {
