@@ -57,6 +57,12 @@ body {
     background-color: #e057a4;
 }
 
+.calculator .output {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
 .result {
     margin-top: 1rem;
     font-size: 1.25rem;
