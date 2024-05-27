@@ -13,3 +13,11 @@ function calculateTip() {
 
     document.getElementById('result').textContent = `Each person should pay $${amountPerPerson.toFixed(2)}`;
 }
+
+function resetForm() {
+    document.getElementById('totalAmount').value = '';
+    document.getElementById('numPeople').value = 1;
+    document.getElementById('numPeopleOutput').textContent = '1';
+    document.getElementById('tipAmount').value = '';
+    document.getElementById('result').textContent = '';
+}
