@@ -56,6 +56,34 @@ body {
 
 .calculator input[type="range"] {
     width: calc(100% - 2rem);
+    margin: 0 1rem;
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none; /* Remove default styling */
+    height: 12px; /* Height of the slider track */
+    background: #ddd; /* Color of the slider track */
+    outline: none;
+    border-radius: 6px; /* Round the corners */
+    overflow: hidden; /* Hide the edges of the track */
+}
+
+.calculator input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none; /* Remove default styling */
+    width: 24px; /* Width of the slider thumb */
+    height: 24px; /* Height of the slider thumb */
+    background: #ff69b4; /* Color of the slider thumb */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 50%; /* Round the thumb */
+    border: 2px solid #fff; /* White border around the thumb */
+}
+
+.calculator input[type="range"]::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: #ff69b4;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 .calculator button {
